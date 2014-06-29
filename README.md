@@ -1,4 +1,4 @@
 controle-de-horas
 =================
 
-Somente suba as classes que forem alteradas plz =]
+Quando forem subir para o projeto original, não suba a pasta bin =].
