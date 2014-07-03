@@ -1,7 +1,6 @@
 package br.com.jovens.controledehoras.entity;
 
 import java.io.Serializable;
-import java.util.Date;
 
 public class ApontamentoEntity implements Serializable {
 
@@ -12,9 +11,9 @@ public class ApontamentoEntity implements Serializable {
 	
 	private Long id;
 	private Tempo tempo;
-	private Date data;
+	private String data;
 	
-	public ApontamentoEntity(Long minutos, Date data){
+	public ApontamentoEntity(Long minutos, String data){
 		tempo = new Tempo(minutos);
 		this.data = data;
 	}
@@ -35,11 +34,11 @@ public class ApontamentoEntity implements Serializable {
 		tempo.setMinutos(minutos);
 	}
 
-	public Date getData() {
+	public String getData() {
 		return data;
 	}
 
-	public void setData(Date data) {
+	public void setData(String data) {
 		this.data = data;
 	}
 	
