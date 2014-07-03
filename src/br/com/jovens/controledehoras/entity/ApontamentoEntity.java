@@ -11,15 +11,11 @@ public class ApontamentoEntity implements Serializable {
 	private static final long serialVersionUID = -5275763475704105815L;
 	
 	private Long id;
-	private Integer hora;
-	private Integer minuto;
+	private Tempo tempo;
 	private Date data;
 	
-	public ApontamentoEntity(){}
-	
-	public ApontamentoEntity(Integer hora, Integer minuto, Date data){
-		this.hora = hora;
-		this.minuto = minuto;
+	public ApontamentoEntity(Long minutos, Date data){
+		tempo = new Tempo(minutos);
 		this.data = data;
 	}
 
@@ -30,21 +26,13 @@ public class ApontamentoEntity implements Serializable {
 	public void setId(Long id) {
 		this.id = id;
 	}
-
-	public Integer getHora() {
-		return hora;
+	
+	public Long getMinutos(){
+		return tempo.getMinutos();
 	}
-
-	public void setHora(Integer hora) {
-		this.hora = hora;
-	}
-
-	public Integer getMinuto() {
-		return minuto;
-	}
-
-	public void setMinuto(Integer minuto) {
-		this.minuto = minuto;
+	
+	public void setMinutos(Long minutos){
+		tempo.setMinutos(minutos);
 	}
 
 	public Date getData() {
@@ -55,12 +43,15 @@ public class ApontamentoEntity implements Serializable {
 		this.data = data;
 	}
 	
+	public String getHoras() {
+		return tempo.getHoras();
+	}
+	
 	@Override
 	public String toString() {
 		StringBuffer sb = new StringBuffer("Apontamento ID: ").append(id).
 				append(", Dia: ").append(data).
-				append(", Total Horas: ").append(hora).
-				append(", Tota Minutos: ").append(minuto);
+				append(", Total Horas: ").append(tempo.getHoras());				
 		return sb.toString();
 	}
 
