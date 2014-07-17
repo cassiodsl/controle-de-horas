@@ -1,5 +1,7 @@
-package br.com.jovens.controledehoras;
+package br.com.jovens.controledehoras.activity;
 
+import br.com.jovens.controledehoras.R;
+import br.com.jovens.controledehoras.R.layout;
 import android.app.Activity;
 import android.os.Bundle;
 

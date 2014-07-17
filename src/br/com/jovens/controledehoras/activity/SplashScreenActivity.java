@@ -1,4 +1,4 @@
-package br.com.jovens.controledehoras;
+package br.com.jovens.controledehoras.activity;
 
 import android.app.Activity;
 import android.content.Intent;
@@ -9,6 +9,7 @@ import android.os.Handler;
 import android.view.animation.Animation;
 import android.view.animation.AnimationUtils;
 import android.widget.ImageView;
+import br.com.jovens.controledehoras.R;
 
 public class SplashScreenActivity extends Activity implements Runnable{
 
@@ -69,7 +70,7 @@ public class SplashScreenActivity extends Activity implements Runnable{
 		protected void onPostExecute(Void result) {
 			super.onPostExecute(result);
 			Intent i = new Intent(SplashScreenActivity.this,
-					MainActivity.class);
+					CalendarioActivity.class);
 			// qualquer informação carregada durante o splash_show
 			// pode ser passada para a main activity usando
 			// abaixo
@@ -82,7 +83,7 @@ public class SplashScreenActivity extends Activity implements Runnable{
 
 	@Override
 	public void run() {
-		startActivity(new Intent(this, MainActivity.class));
+		startActivity(new Intent(this, CalendarioActivity.class));
         finish();
 		
 	}
