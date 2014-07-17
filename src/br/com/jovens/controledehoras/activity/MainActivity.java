@@ -1,9 +1,9 @@
-package br.com.jovens.controledehoras;
+package br.com.jovens.controledehoras.activity;
 
+import br.com.jovens.controledehoras.R;
+import br.com.jovens.controledehoras.R.layout;
 import android.app.Activity;
 import android.os.Bundle;
-import android.view.Menu;
-import android.view.MenuItem;
 
 public class MainActivity extends Activity {
 
@@ -11,5 +11,7 @@ public class MainActivity extends Activity {
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.activity_main);
+		
+		System.out.println("Testando");
 	}
 }
