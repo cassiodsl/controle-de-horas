@@ -53,45 +53,50 @@ public final class R {
         public static final int cab_background_top_controlehoras=0x7f02000b;
         public static final int card_background=0x7f02000c;
         public static final int fundo=0x7f02000d;
-        public static final int ic_launcher=0x7f02000e;
-        public static final int icone_animacao_01=0x7f02000f;
-        public static final int icone_animacao_02=0x7f020010;
-        public static final int icone_animacao_03=0x7f020011;
-        public static final int icone_animacao_04=0x7f020012;
-        public static final int list_focused_controlehoras=0x7f020013;
-        public static final int list_pressed_controlehoras=0x7f020014;
-        public static final int logo_splash=0x7f020015;
-        public static final int menu_dropdown_panel_controlehoras=0x7f020016;
-        public static final int progress_bg_controlehoras=0x7f020017;
-        public static final int progress_horizontal_controlehoras=0x7f020018;
-        public static final int progress_primary_controlehoras=0x7f020019;
-        public static final int progress_secondary_controlehoras=0x7f02001a;
-        public static final int selectable_background_controlehoras=0x7f02001b;
-        public static final int spinner_ab_default_controlehoras=0x7f02001c;
-        public static final int spinner_ab_disabled_controlehoras=0x7f02001d;
-        public static final int spinner_ab_focused_controlehoras=0x7f02001e;
-        public static final int spinner_ab_pressed_controlehoras=0x7f02001f;
-        public static final int spinner_background_ab_controlehoras=0x7f020020;
-        public static final int tab_indicator_ab_controlehoras=0x7f020021;
-        public static final int tab_selected_controlehoras=0x7f020022;
-        public static final int tab_selected_focused_controlehoras=0x7f020023;
-        public static final int tab_selected_pressed_controlehoras=0x7f020024;
-        public static final int tab_unselected_controlehoras=0x7f020025;
-        public static final int tab_unselected_focused_controlehoras=0x7f020026;
-        public static final int tab_unselected_pressed_controlehoras=0x7f020027;
+        public static final int ic_action_upload=0x7f02000e;
+        public static final int ic_launcher=0x7f02000f;
+        public static final int icone_animacao_01=0x7f020010;
+        public static final int icone_animacao_02=0x7f020011;
+        public static final int icone_animacao_03=0x7f020012;
+        public static final int icone_animacao_04=0x7f020013;
+        public static final int list_focused_controlehoras=0x7f020014;
+        public static final int list_pressed_controlehoras=0x7f020015;
+        public static final int logo_splash=0x7f020016;
+        public static final int menu_dropdown_panel_controlehoras=0x7f020017;
+        public static final int progress_bg_controlehoras=0x7f020018;
+        public static final int progress_horizontal_controlehoras=0x7f020019;
+        public static final int progress_primary_controlehoras=0x7f02001a;
+        public static final int progress_secondary_controlehoras=0x7f02001b;
+        public static final int selectable_background_controlehoras=0x7f02001c;
+        public static final int spinner_ab_default_controlehoras=0x7f02001d;
+        public static final int spinner_ab_disabled_controlehoras=0x7f02001e;
+        public static final int spinner_ab_focused_controlehoras=0x7f02001f;
+        public static final int spinner_ab_pressed_controlehoras=0x7f020020;
+        public static final int spinner_background_ab_controlehoras=0x7f020021;
+        public static final int tab_indicator_ab_controlehoras=0x7f020022;
+        public static final int tab_selected_controlehoras=0x7f020023;
+        public static final int tab_selected_focused_controlehoras=0x7f020024;
+        public static final int tab_selected_pressed_controlehoras=0x7f020025;
+        public static final int tab_unselected_controlehoras=0x7f020026;
+        public static final int tab_unselected_focused_controlehoras=0x7f020027;
+        public static final int tab_unselected_pressed_controlehoras=0x7f020028;
     }
     public static final class id {
-        public static final int android_anim=0x7f080005;
-        public static final int calendario=0x7f080000;
-        public static final int dspLimiteFaltas=0x7f080002;
-        public static final int logo=0x7f080004;
-        public static final int textView1=0x7f080003;
-        public static final int txtDisciplina=0x7f080001;
+        public static final int android_anim=0x7f090005;
+        public static final int calendario=0x7f090000;
+        public static final int dspLimiteFaltas=0x7f090002;
+        public static final int importCsv=0x7f090006;
+        public static final int logo=0x7f090004;
+        public static final int textView1=0x7f090003;
+        public static final int txtDisciplina=0x7f090001;
     }
     public static final class layout {
         public static final int activity_calendario=0x7f030000;
         public static final int activity_main=0x7f030001;
         public static final int activity_splash_screen=0x7f030002;
+    }
+    public static final class menu {
+        public static final int menu_main=0x7f080000;
     }
     public static final class string {
         public static final int app_name=0x7f060000;
