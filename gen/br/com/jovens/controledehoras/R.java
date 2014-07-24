@@ -77,10 +77,13 @@ public final class R {
         public static final int tab_unselected_pressed_ctl=0x7f020027;
     }
     public static final class id {
-        public static final int android_anim=0x7f080002;
-        public static final int logo=0x7f080001;
-        public static final int textView1=0x7f080000;
-
+        public static final int android_anim=0x7f090005;
+        public static final int calendario=0x7f090000;
+        public static final int dspLimiteFaltas=0x7f090002;
+        public static final int importCsv=0x7f090006;
+        public static final int logo=0x7f090004;
+        public static final int textView1=0x7f090003;
+        public static final int txtDisciplina=0x7f090001;
     }
     public static final class layout {
         public static final int activity_calendario=0x7f030000;
@@ -129,7 +132,6 @@ public final class R {
         public static final int AppTheme=0x7f070001;
         public static final int DropDownListView_Ctl=0x7f070007;
         public static final int DropDownNav_Ctl=0x7f070009;
-        public static final int MyTheme_ActionBar_TitleTextStyle=0x7f07000d;
         public static final int PopupMenu_Ctl=0x7f070006;
         public static final int ProgressBar_Ctl=0x7f07000a;
         public static final int Theme_Ctl=0x7f070003;

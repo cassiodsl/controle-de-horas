@@ -29,7 +29,6 @@
         <item name="android:actionModeBackground">@drawable/cab_background_top_ctl</item>
         <item name="android:actionModeSplitBackground">@drawable/cab_background_bottom_ctl</item>
         <item name="android:actionModeCloseButtonStyle">@style/ActionButton.CloseMode.Ctl</item> 
-        <item name="android:actionBarTabTextStyle">@style/MyTheme.ActionBar.TitleTextStyle</item>
         
     </style>
 
@@ -77,9 +76,6 @@
         <item name="android:dropDownListViewStyle">@style/DropDownListView.Ctl</item>
     </style>
     
-    <style name="MyTheme.ActionBar.TitleTextStyle" parent="@style/TextAppearance.Holo.Widget.ActionBar.Title">
-    <item name="android:textColor">@color/red</item>
-  </style>
     
 		
 </resources>
