@@ -1,9 +1,13 @@
 package br.com.jovens.controledehoras.activity;
 
+import java.util.zip.Inflater;
+
 import br.com.jovens.controledehoras.R;
 import br.com.jovens.controledehoras.R.layout;
 import android.app.Activity;
 import android.os.Bundle;
+import android.view.Menu;
+import android.view.MenuInflater;
 
 public class MainActivity extends Activity {
 
@@ -14,4 +18,5 @@ public class MainActivity extends Activity {
 		
 		System.out.println("Testando");
 	}
+	
 }
